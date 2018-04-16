@@ -6165,3 +6165,6 @@ html, body {
 
 #speaker:hover {
   content: url("assets/img/project/analog_speaker_img2.jpg"); }
+
+#misp_cpu:hover {
+  content: url("assets/img/project/misp2.jpg"); }
