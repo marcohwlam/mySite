@@ -36,7 +36,8 @@ $body-bg: white;
 $body-color: #333;
 
 $body-color-inverse: invert($body-color) !default;
-$link-color: #aaa;
+$link-color: #333;
+
 
 // Fonts
 $font-family-base: Quattrocento;
@@ -112,4 +113,13 @@ background-attachment: fixed;
   }
 }
 
+.project-img {
+  width: 416px;
+  height: 256px;
+  object-fit: cover;
+  border-radius: 15px;
+}
 
+.profile-img {
+  border-radius: 30px;
+}
