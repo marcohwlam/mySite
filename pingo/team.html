@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="colorful.css">
   <!-- Script: Navbar on-top -->
   <script src="js/navbar-ontop.js"></script>
+  <script src="js/player-control.js"></script>
   <link rel="stylesheet" href="colorful.css"> </head>
 
 <body>
@@ -450,7 +451,7 @@
           <p class="">A NXT robot programmed using NXT-C with various sensors that finds, collects, catagorizes, stores, and disposes waste.</p>
           <div class="row">
             <div class="col-md-12 align-items-center align-self-center justify-content-center flex-column py-5">
-              <a class="btn btn-primary profile-img" href="https://www.youtube.com/watch?v=qFn0017UIdM" target="_blank">
+              <a class="btn btn-primary profile-img" href="" data-target=".robot" data-toggle="modal">
                 <i class="fa d-inline fa-lg mr-3 text-white fa-play-circle-o"></i>Demo</a>
             </div>
           </div>
@@ -467,7 +468,7 @@
                 <i class="fa d-inline fa-lg mr-3 text-white fa-bold"></i>Blog</a>
             </div>
             <div class="col-md-6 align-self-center align-items-center justify-content-center">
-              <a href="https://www.youtube.com/watch?v=Y41Hb5_Xtj8" class="btn btn-primary profile-img" target="_blank">
+              <a class="btn btn-primary profile-img" data-target=".heart_mon" data-toggle="modal" href="">
                 <i class="fa d-inline fa-lg mr-3 text-white fa-play-circle-o"></i>Demo</a>
             </div>
           </div>
@@ -649,7 +650,7 @@
       </div>
       <div class="row">
         <div class="col-md-12 mt-3">
-          <p class="text-center text-muted">© Copyright 2018 Pingendo - All rights reserved. </p>
+          <p class="text-center text-muted">© Copyright 2018 Ho Wang Lam- All rights reserved. Made with Pingendo</p>
         </div>
       </div>
     </div>
@@ -689,13 +690,14 @@
             <b>Car Tuning&nbsp;</b>- Checking sensors from my laptop&nbsp;</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
+            <a href="#" class="stop-video"></a>
           </button>
         </div>
         <div class="modal-body bg-light">
           <div class="row">
             <div class="col-md-12 px-3">
               <div class="embed-responsive embed-responsive-4by3">
-                <iframe width="854" height="480" src="https://www.youtube.com/embed/HplxdeD6W5Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/HplxdeD6W5Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" id="playerID" class="youtube-video"></iframe>
               </div>
             </div>
           </div>
@@ -711,13 +713,60 @@
             <b>Analog Speaker&nbsp;</b>- Playing music with my analog circuit&nbsp;</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
+            <a href="#" class="stop-video"></a>
           </button>
         </div>
         <div class="modal-body bg-light">
           <div class="row">
             <div class="col-md-12 px-3">
               <div class="embed-responsive embed-responsive-4by3">
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/CQtAJNuZ_eE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/CQtAJNuZ_eE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" class="youtube-video"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade heart_mon">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-light">
+          <h5 class="modal-title">
+            <b>Remote Heart Rate Monitor&nbsp;</b>- Demo of me doing push up&nbsp;</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            <a href="#" class="stop-video"></a>
+          </button>
+        </div>
+        <div class="modal-body bg-light">
+          <div class="row">
+            <div class="col-md-12 px-3">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/Y41Hb5_Xtj8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" class="youtube-video"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade robot">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-light">
+          <h5 class="modal-title">
+            <b>Robotic Competition&nbsp;</b>- Robot Disposaling Wastes&nbsp;</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            <a href="#" class="stop-video"></a>
+          </button>
+        </div>
+        <div class="modal-body bg-light">
+          <div class="row">
+            <div class="col-md-12 px-3">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/qFn0017UIdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" class="youtube-video"></iframe>
               </div>
             </div>
           </div>
