@@ -6159,3 +6159,9 @@ html, body {
 
 #drexel_secetart_img:hover {
   content: url("assets/img/project/drexel secretary2.jpeg"); }
+
+#opamp:hover {
+  content: url("assets/img/project/opamp2.jpg"); }
+
+#speaker:hover {
+  content: url("assets/img/project/analog_speaker_img2.jpg"); }
