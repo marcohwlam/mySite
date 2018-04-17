@@ -1,14 +1,14 @@
 /*!
-* Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
+* Based on Bootstrap v4.0.0 (https://getbootstrap.com)
 */
- 
+
 // Options
-// 
+//
 // Quickly modify global styling by enabling or disabling optional features.
- 
-@import url('https://fonts.googleapis.com/css?family=Anton'); 
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800');
-@import url('https://fonts.googleapis.com/css?family=Quattrocento'); 
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
 
 $enable-rounded:            true !default;
 $enable-shadows:            true;
@@ -133,7 +133,7 @@ background-attachment: fixed;
 }
 
 #car_tune_img:hover {
-   content: url('assets/img/project/car_tune2.JPG');
+   content: url('assets/img/project/car_tune3.JPG');
 }
 
 #drexel_secetart_img:hover {
@@ -156,7 +156,7 @@ background-attachment: fixed;
 div#preloaded-images {
    position: absolute;
    overflow: hidden;
-   left: -9999px; 
+   left: -9999px;
    top: -9999px;
    height: 1px;
    width: 1px;
