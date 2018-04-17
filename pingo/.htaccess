@@ -1,6 +1,6 @@
 # Error Doc
-ErrorDocument 404 /errors/404_not_found.html
-ErrorDocument 403 /errors/403_forbidden.html
+ErrorDocument 404 /assests/errors/404_not_found.html
+ErrorDocument 403 /assests/errors/403_forbidden.html
 
 # Allows ModRewrite to works
 OPtions FollowSymLinks
