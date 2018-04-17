@@ -3,12 +3,12 @@ ErrorDocument 404 /errors/404_not_found.html
 ErrorDocument 403 /errors/403_forbidden.html
 
 # Allows ModRewrite to works
-OPtions FollowSymLinks
+#Options FollowSymLinks
 
 #Rewrite url - remove file extension
-RewriteEngine On
-RewriteBase /
+#RewriteEngine On
+#RewriteBase /
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^\.]+)$ $1.html [NC,L]
