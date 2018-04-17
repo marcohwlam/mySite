@@ -151,3 +151,13 @@ background-attachment: fixed;
 #misp_cpu:hover {
    content: url('assets/img/project/misp2.jpg');
 }
+
+/* preload */
+div#preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
