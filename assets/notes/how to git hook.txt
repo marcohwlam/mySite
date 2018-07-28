@@ -1,0 +1,14 @@
+1 open a folder on server for git repo (not storing anything)
+2 git init --bare
+3 go to /repo/hooks
+4 make a file post-receive
+5 in file put these:
+  stop service
+  git --work-tree=/path/to/web/server/ --git-dir=/path/to/repo/ checkout -f
+  start service
+6 chmod +x post-receive
+7 go to your dev repo
+8 git remote add live ssh://user@host.com/path/to/repo/    (live is remote target)
+9 git add .
+10 git commit -m 'comment for commit'
+11 git push live master
